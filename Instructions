@@ -1,0 +1,7 @@
+<Instructions>:
+
+Precondition: System with SIPp server running, kindly run Registration acceptance script at server side, Wireshark with server-client interface selected to capture logs 
+Register 2 clients rup1 and rup2 with SIPp server by running registrations scripts(Registration_rup1.sh and Registration_rup2).
+To Make Voice call from client rup1 to rup2, run rup1_outgoing_call.sh on machine 1 and rup2_incoming_Call.sh on machine 2 respectively.
+Wireshark Logs can be recorded on clients system as well by selecting appropriate interface.
+Thank you
