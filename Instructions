@@ -1,0 +1,17 @@
+<Instructions>:
+
+<Kindly modify local and remote ip>, <currently set as 192.168.0.119> 
+
+<Kindly run scripts in below order>
+
+1. Registration_UAS.sh     #Registration server
+2. Registration_rup1.sh    #Registration of endpoint1 (rup1)
+3. Registration_UAS.sh     #Registration server
+4. Registration_rup2.sh    #Registration of endpoint2 (rup2)
+5. rup2_incoming_Call.sh   #Incoming call responder/server
+6. rup1_outgoing_call.sh   # Mo call from endpoint1 (rup1) to endpoint2 (rup2)
+
+
+<Pcap log for above scenarios are attached>
+
+Thank you...
